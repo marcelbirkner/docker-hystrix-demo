@@ -15,6 +15,12 @@ To access the demo app, go to:
 
 - http://192.168.59.103:48080/
 
+To generate some traffing, run the following command:
+
+```
+while true; do curl "http://192.168.59.103:48080/"; done
+```
+
 ## Tested on
 
 - MacOS & Boot2Docker
