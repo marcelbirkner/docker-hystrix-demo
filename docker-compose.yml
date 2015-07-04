@@ -1,0 +1,10 @@
+hystrixdashboard:
+  build: ./hystrix-dashboard
+  ports:
+    - "38080:8080"
+  links:
+    - hystrixwebapp:hystrixwebapp
+hystrixwebapp:
+  build: ./hystrix-web-app
+  ports:
+    - "48080:8080"
