@@ -11,7 +11,7 @@ To access the dashboard, go to:
 
 - http://localhost:38080/
 - Once at the dashboard, find your IP address and enter it into the "stream" field
--- http://{ip address, not localhost}:48080/hystrix.stream
+  - http://{ip address, not localhost}:48080/hystrix.stream
 
 To access the demo app, go to:
 
