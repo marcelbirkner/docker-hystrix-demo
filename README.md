@@ -9,11 +9,13 @@ docker-compose up
 
 To access the dashboard, go to:
 
-- http://192.168.59.103:38080/
+- http://localhost:38080/
+- Once at the dashboard, find your IP address and enter it into the "stream" field
+  - http://{ip address, not localhost}:48080/hystrix.stream
 
 To access the demo app, go to:
 
-- http://192.168.59.103:48080/
+- http://localhost:48080/
 
 To generate some traffing, run the following command:
 
